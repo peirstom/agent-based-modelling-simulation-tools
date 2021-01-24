@@ -21,6 +21,13 @@
     <link rel="stylesheet" type="text/css" href="./custom.css" />
     <!-- Export functionality -->
     <script type="text/javascript" src="./tableHTMLExport.js"></script>
+
+
+    <!-- CUstom -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -29,48 +36,75 @@
 <body>
     <section>
         <div class="container container-wrapper">
-            <div>
-                <p></p>
-                <h1>Agent-based modeling tool selection</h1>
-                <p>The study of Abar, Sameera, Georgios K Theodoropoulos, Pierre Lemarinier, and Gregory MPO’Hare
-                    (2017). “Agent Based Modelling and Simulation tools: A review of thestate-of-art software”.
-                    In:Computer Science Review 24, pp. 13–33.
-                    provides a great foundation of state-of-the-art agent-based modelling and simulation tools.
-                    At the time of writing, synthesis of ABMS might be outdated.
-                    Therefore we will review and update the resources in addition to providing a few extra ABM tool
-                    characteristics which are gaining traction.
-                    <div class="row">
-                        <div class="column">
-                            <h2>Functionality</h2>
-                            <P>Use The general search at the top-right filter across the whole data table. (seperate
-                                keywords by space)</P>
-                            <p>Filter per column by clicking on the dropdown menu</p>
-                            This project is hosted on Github: <a href="https://github.com/peirstom/peirstom.github.io"
-                                target="_blank"><img src="./GitHub-Mark-64px.png" width="32" height="32"></a>
-                        </div>
-                        <div class="column">
-                            <h2>Definitions</h2>
+            <h1>Agent-based modeling tool selection</h1>
+            <p>The study of <a href="https://doi.org/10.1016/j.cosrev.2017.03.001" target="_blank">Abar et al, (2017)</a> provides a great foundation of state-of-the-art agent-based modelling and simulation tools.
+                At the time of writing, synthesis of ABMS might be outdated.
+                Therefore we will review and update the resources in addition to providing a few extra ABM tool
+                characteristics which are gaining traction.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            
+                <div class="row">
+                    <div class="column left">
+                        <h2>Functionality</h2>
+                        <P>Use The <em>general search</em> at the top-right filter across the whole data table. (seperate
+                            keywords by space)</P>
+                        <p><em>Filter per column</em>  by clicking on the dropdown menu</p>
+                        <p>This project is hosted on Github: <a href="https://github.com/peirstom/peirstom.github.io"
+                                target="_blank"><img src="./GitHub-Mark-64px.png" width="32" height="32"></a> </p>
+                    </div>
+                    <div class="column right">
+                        <h2>Definitions</h2>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#dev-effort">Development Effort</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu1">Scalability</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu2">License</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu3">Type of Agents</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu4">Programming Language</a>
+                            </li>
+                        </ul>
+    
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane container active" id="dev-effort">
+                                <i>
+                                    The availability of a graphical
+                                    programming interface for code editing and simulation running, or intuitive visual
+                                    programming user interface for the model rendering tasks.
+                                </i></div>
+                            <div class="tab-pane container fade" id="menu1">
+                                <i>
+                                    The computational modelling strength or
+                                scalability of the models developed through the use of particular toolkits.
+                                </i></div>
+                            <div class="tab-pane container fade" id="menu2">
+                                <i>
+                                    The source-code specification, online
+                                availability, distribution license / legibility as an open or closed source.
+                                </i></div>
+                            <div class="tab-pane container fade" id="menu3">
+                                <i>
+                                    The implementation types of agents primarily
+                                based on the interaction mechanism during simulation activity.
+                                </i></div>
+                            <div class="tab-pane container fade" id="menu4">
+                                <i>
+                                    The requirements and provision of an
+                                    Application Programming Interface (API) together with availability of built-in libraries
+                                    for incorporation within the user’s source code for developing agent-based models. 
+                                </i></div>
                         </div>
                     </div>
-
+                </div>
+        </div>
     </section>
     <div class="container">
         <div class="row">
