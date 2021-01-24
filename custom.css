@@ -1,14 +1,13 @@
-.my-column-1 {
-  float: left;
-  width: 210px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.my-column-2 {
-  float: left;
-  width: auto;
+.column {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
 }
 
 .abms-table {
@@ -89,5 +88,33 @@ table .t10 {
 
 table .t11 {
   width: 80px;
+}
+
+#exTab1 .tab-content {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+#exTab2 h3 {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+/* remove border radius for the tab */
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0;
+}
+
+#exTab3 .tab-content {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
 }
 /*# sourceMappingURL=custom.css.map */
