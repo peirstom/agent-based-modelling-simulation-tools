@@ -1,3 +1,8 @@
+.dropdown-filter-icon {
+  border: solid 1px black;
+  /* border-radius: 100px; */
+}
+
 .column {
   float: left;
   padding: 10px;
@@ -26,6 +31,7 @@
   height: 750px;
   overflow-y: auto;
   overflow-x: auto;
+  font-size: 11px;
 }
 
 .container-wrapper {
@@ -33,14 +39,14 @@
 }
 
 table td {
-  overflow: hidden;
-  text-overflow: ellipsis;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
   cursor: pointer;
   word-break: break-all;
-  white-space: nowrap;
-  border: 1px solid #C8C8C8;
+  /* white-space: nowrap; */
+  /* border: 1px solid #C8C8C8; */
   text-align: left;
-  padding: 10px;
+  /* padding: 2px; */
 }
 
 table tr:hover {
@@ -55,27 +61,27 @@ tr > td:hover {
 }
 
 table .t1 {
-  width: 150px;
-}
-
-table .t2 {
-  width: 150px;
-}
-
-table .t3 {
-  width: 150px;
-}
-
-table .t4 {
   width: 100px;
 }
 
+table .t2 {
+  width: 80px;
+}
+
+table .t3 {
+  width: 80px;
+}
+
+table .t4 {
+  width: 80px;
+}
+
 table .t5 {
-  width: 150px;
+  width: 110px;
 }
 
 table .t6 {
-  width: 230px;
+  width: 200px;
 }
 
 table .t7 {
@@ -83,18 +89,18 @@ table .t7 {
 }
 
 table .t8 {
-  width: 80px;
+  width: 100px;
 }
 
 table .t9 {
-  width: 80px;
+  width: 150px;
 }
 
 table .t10 {
-  width: 80px;
+  width: 150px;
 }
 
 table .t11 {
-  width: 80px;
+  width: 130px;
 }
 /*# sourceMappingURL=custom.css.map */
